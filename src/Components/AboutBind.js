@@ -1,29 +1,29 @@
 import React from 'react';
- 
-function AboutBind (){
+
+function AboutBind() {
 
     const Obj1 = {
 
-          termin:'Call',
+        termin: 'Call',
 
-          funcForUnderstandingBind: function (){
+        funcForUnderstandingBind: function () {
 
             return (
-              this.termin
+                this.termin
             )
-          }
+        }
     }
 
-    const Obj2={
-        termin:'bind'
+    const Obj2 = {
+        termin: 'bind'
 
     }
-    const  funcBind = Obj1.funcForUnderstandingBind;
-    const  componentBind = funcBind.bind(Obj2);
-    const   bind1 = componentBind()
-    
+    const funcBind = Obj1.funcForUnderstandingBind;
+    const componentBind = funcBind.bind(Obj2);
+    const bind1 = componentBind()
+
     return (
-       <div>    I finally understand  {bind1} !</div>
+        <div> I finally understand  {bind1} !</div>
 
     )
 

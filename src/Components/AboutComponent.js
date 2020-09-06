@@ -1,17 +1,17 @@
 import React from 'react';
 
 
- function AboutComponent (){
+function AboutComponent() {
 
     return (
 
         <>
-        <h1>  COMPONENT</h1>
-        <div> Always start component names with a capital letter.  </div>
-        
+            <h1>  COMPONENT</h1>
+            <div> Always start component names with a capital letter!  </div>
+
         </>
     )
 
- };
+};
 
- export default AboutComponent;
+export default AboutComponent;
