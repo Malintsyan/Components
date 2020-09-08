@@ -12,7 +12,7 @@ function App() {
       <AboutComponent />
       <AboutProps name='DYNAMIC' brackets= 'CURLY'/>
       <AboutBind/>
-      <Product name='bananas' price='1$' description='Fresh bananas from Ecuador' />
+      <Product name='bananas' price='2$' description='Fresh bananas from Ecuador' />
     </div>
   );
 }
